@@ -1,14 +1,51 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Download file JS example</title>
+        <title>Download File JS example</title>
+        <script src="../lib/download.min.js"></script>
     </head>
     <body>
         <h1>
-            DownloadJS example
+            DownloadJS demo page
         </h1>
+        <h2>
+            Intelligent, bulletproof solution for file downloading from JavaScript
+        </h2>
         <p>
-
+            Why DownloadJS?
         </p>
+        <ul>
+            <li>
+                Avoids blank screens after file starts downloading in Chrome, Safari
+            </li>
+            <li>
+                Prevents caching
+            </li>
+            <li>
+                Initiates downloading from server via ?download query
+            </li>
+            <li>
+                Uses HTML5 <b>download</b> attribute to initiate downloading even if content-type have to be opened
+            </li>
+        </ul>
+        <p id="downloadLabel"></p>
+        <script>
+            var secondsBeforeDownloading = 5;
+
+            var timerInterval = setInterval('setDownloadText()', 1000);
+
+            var setDownloadText = function() {
+                var label = document.getElementById('downloadLabel');
+
+                if (secondsBeforeDownloading === 0){
+                    label.innerHTML = 'Poehali !!!';
+                    downloadFile('./file.todownload');
+                    clearInterval(timerInterval);
+                } else {
+                    label.innerHTML = 'Download will start in ' + secondsBeforeDownloading + ' seconds...';
+                    secondsBeforeDownloading--;
+                }
+            }
+        </script>
     </body>
 </html>
