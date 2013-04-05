@@ -9,8 +9,9 @@ Intelligent JavaScript solution for file downloading.
 Why DownloadJS?
 ---------------
 
-- Uses virtual link element and HTML5 download attribute to initiate downloading ignoring content-type
-- Avoids blank screens after file starts downloading in Chrome, Safari
+- Avoids stupid blank screens after file starts downloading in Chrome, Safari.
+- Ignores content type by using virtual link with "download" attribute. So file will be downloaded even if file`s content type says browser to open file in new window.
+
 
 
 Bug tracker
