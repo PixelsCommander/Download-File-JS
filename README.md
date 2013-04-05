@@ -10,7 +10,7 @@ Why DownloadJS?
 ---------------
 
 - Avoids stupid blank screens after file starts downloading in Chrome, Safari.
-- Ignores content type by using virtual link with "download" attribute. So file will be downloaded even if file`s content type says browser to show file`s content in new window. This allows to download PNGs, HTMLs and so on.
+- Ignores content type by using virtual link with "download" attribute. So file will be downloaded even if files content type says browser to show file`s content in new window. This allows to download PNGs, HTMLs and so on.
 
 
 
