@@ -24,7 +24,7 @@ window.downloadFile = function(sUrl) {
     // Force file download (whether supported by server).
     var query = '?download';
 
-    window.open(sUrl + query);
+    window.open(sUrl + query, '_self');
 }
 
 window.downloadFile.isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
