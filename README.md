@@ -1,12 +1,12 @@
 DOWNLOAD JS
 ===========
 
+Intelligent JavaScript solution for file downloading.
+Easy to use - just call <code>downloadFile(URL)</code> global function.
+
 <a href="http://pixelscommander.com/polygon/downloadjs/">See it in action</a>
 
 <a href="http://pixelscommander.com/en/javascript/javascript-file-download-ignore-content-type/">Article about</a>
-
-Intelligent JavaScript solution for file downloading.
-Easy to use - just call <code>downloadFile(URL)</code> global function.
 
 
 Why DownloadJS?
