@@ -1,0 +1,27 @@
+{
+  "name": "DownloadJS",
+  "version": "0.5.2",
+  "description": "Intelligent solution for files downloading from JavaScript",
+  "articleURL": "http://pixelscommander.com/javascript/javascript-file-download-ignore-content-type/",
+  "main": "dist/download.min.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PixelsCommander/Download-File-JS.git"
+  },
+  "author": "Denis Radin aka PixelsCommander",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/PixelsCommander/Download-File-JS/issues"
+  },
+  "homepage": "https://github.com/PixelsCommander/Download-File-JS",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}
