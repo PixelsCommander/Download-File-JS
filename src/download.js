@@ -28,7 +28,9 @@ window.downloadFile = function (sUrl) {
     }
 
     // Force file download (whether supported by server).
-    sUrl += '?download';
+    if (sUrl.indexOf('?') === -1) {
+        sUrl += '?download';
+    }
 
     window.open(sUrl, '_self');
     return true;
