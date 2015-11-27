@@ -34,7 +34,7 @@ window.downloadFile = function (sUrl) {
 
     window.open(sUrl, '_self');
     return true;
-}
+};
 
 window.downloadFile.isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 window.downloadFile.isSafari = navigator.userAgent.toLowerCase().indexOf('safari') > -1;
