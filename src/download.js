@@ -33,7 +33,7 @@ window.downloadFile = function (sUrl) {
         sUrl += '?download';
     }
 
-    window.open(sUrl, '_self');
+    window.open(sUrl, '_blank');
     return true;
 }
 
