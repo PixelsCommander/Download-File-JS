@@ -10,6 +10,7 @@ window.downloadFile = function (sUrl) {
     if (window.downloadFile.isChrome || window.downloadFile.isSafari) {
         //Creating new link node.
         var link = document.createElement('a');
+        link.target="_blank";
         link.href = sUrl;
 
         if (link.download !== undefined) {
